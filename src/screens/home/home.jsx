@@ -14,10 +14,10 @@ function Home() {
   const [limit, setlimit] = useState(10);
   const list = ["All", "Asia", "Europe", "Europe"];
   const Images = [
-    "src/assets/Auth/google.svg",
-    "src/assets/Auth/fb.svg",
-    "src/assets/Auth/linkdin.svg",
-    "src/assets/Auth/youtube.svg",
+    "../../assets/Auth/google.svg",
+    "../../assets/Auth/fb.svg",
+    "../../assets/Auth/linkdin.svg",
+    "../../assets/Auth/youtube.svg",
   ];
   const dispatch = useDispatch();
   const { countries, status, error } = useSelector((state) => state.countries);
