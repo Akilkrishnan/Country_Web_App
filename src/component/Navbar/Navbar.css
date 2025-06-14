@@ -1,6 +1,9 @@
 .navbar-collapse {
   flex-grow: 0;
 }
+.custom-navbar{
+  background-color: white !important;
+}
 .custom-navbar button {
   border: none;
   background-color: transparent;
