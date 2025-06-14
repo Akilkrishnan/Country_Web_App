@@ -6,9 +6,9 @@ import Row from "react-bootstrap/Row";
 const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0);
   const images = [
-    { src: "/src/assets/home/Group 1.png", caption: "Caption Text" },
-    { src: "/src/assets/home/Group 1.png", caption: "Caption Two" },
-    { src: "/src/assets/home/Group 1.png", caption: "Caption Three" },
+    { src: "../../assets/home/Group 1.png", caption: "Caption Text" },
+    { src: "../../assets/home/Group 1.png", caption: "Caption Two" },
+    { src: "../../assets/home/Group 1.png", caption: "Caption Three" },
   ];
   const nextSlide = () => {
     // setDirection("right");
@@ -47,7 +47,7 @@ const Slider = () => {
 
           <div className="dots">
             <button className="prev" onClick={prevSlide}>
-              <img src="/src/assets/Slider/left-arrow.png" width={16} />
+              <img src="../../assets/Slider/left-arrow.png" width={16} />
             </button>
             <div className="dot-container">
               {images.map((_, i) => (
@@ -59,7 +59,7 @@ const Slider = () => {
               ))}
             </div>
             <button className="next" onClick={nextSlide}>
-              <img src="/src/assets/Slider/right-arrow.png" width={16} />
+              <img src="../../assets/Slider/right-arrow.png" width={16} />
             </button>
           </div>
         </div>

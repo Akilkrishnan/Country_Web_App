@@ -27,7 +27,7 @@ function SignInScreen() {
     } else {
       setError("");
       // Simulate successful login (or add API logic here)
-      navigate("/");
+      navigate("/home");
     }
   };
 
@@ -43,10 +43,10 @@ function SignInScreen() {
     }}
   };
   const Images = [
-    "src/assets/Auth/google.svg",
-    "src/assets/Auth/fb.svg",
-    "src/assets/Auth/linkdin.svg",
-    "src/assets/Auth/tweet.svg",
+    "../../assets/Auth/google.svg",
+    "../../assets/Auth/fb.svg",
+    "../../assets/Auth/linkdin.svg",
+    "../../assets/Auth/tweet.svg",
   ];
   return (
     <Container className="signin-container">
@@ -118,7 +118,7 @@ function SignInScreen() {
 
         <Col>
           <Image
-            src="src/assets/Auth/Illustration.png"
+            src="../../assets/Auth/Illustration.png"
             height={"80%"}
             id="signin-image"
           />

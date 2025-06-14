@@ -15,7 +15,7 @@ function CustomNavbar() {
   return (
     <Navbar expand="xl" className="bg-body-tertiary custom-navbar">
       <Container>
-        <Navbar.Brand href="/">Countries</Navbar.Brand>
+        <Navbar.Brand onClick={() => navigate("/")}>Countries</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
