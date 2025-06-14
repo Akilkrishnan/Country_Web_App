@@ -1,0 +1,78 @@
+@media screen and (min-width: 1280px) {
+  #border {
+    width: 40%;
+  }
+  #border-2 {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 990px) {
+  #border-2 {
+    margin: 20px;
+  }
+}
+#country-name {
+  text-align-last: start;
+  padding: 15px 29px;
+  line-height: 1;
+  align-content: center;
+}
+#country-name h6 {
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #3d3d3d;
+}
+#country-name p {
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 3%;
+  color: #6f6f6f;
+}
+.country-container {
+  border: 2px solid #3d3d3d;
+  padding: 15px;
+  margin-bottom: 16px;
+  max-width: 100% !important;
+  box-shadow: 10px 10px #e1e1e1;
+}
+.slider-row {
+  margin-bottom: 50px;
+  /* max-width: 100% !important; */
+}
+.load-more {
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fcfcfc;
+  background-color: #3c3c3c;
+  width: 150px;
+  height: 48px;
+  border-radius: 0;
+  margin: 15px auto;
+}
+#home-email {
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #3d3d3d;
+}
+#home-copyright {
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #3d3d3d;
+}
