@@ -39,6 +39,10 @@
   margin-bottom: 16px;
   max-width: 100% !important;
   box-shadow: 10px 10px #e1e1e1;
+
+  /*     padding: 0px 16px;
+  
+  */
 }
 .slider-row {
   margin-bottom: 50px;
@@ -75,4 +79,42 @@
   letter-spacing: 3%;
   text-align: center;
   color: #3d3d3d;
+}
+#country-flag {
+  width: 127px;
+  height: 100px;
+
+}
+@media screen and (max-width: 700px) {
+
+  #country-flag {
+         width: 56px;
+        height: 85px;
+  }
+  #country-name p{
+
+    font-size: 13px;
+    margin: 0;
+
+}
+#country-name h6 {
+
+    font-size: 17px;
+ 
+        text-align: left;
+}
+
+.country-container {
+    border: 2px solid #3d3d3d;
+    padding: 0px 19px;
+    margin-bottom: 16px;
+    max-width: 100% !important;
+    box-shadow: 10px 10px #e1e1e1;
+    /* padding: 0px 16px; */
+    height: 85px;
+}
+.country-container .col-3 {
+  width: 20%;
+}
+
 }

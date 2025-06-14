@@ -68,8 +68,7 @@ function Home() {
                           alt={country.name}
                           // src="/src/assets/home/Group 1.png"
                           // alt=""
-                          width={127}
-                          height={100}
+                         id="country-flag"
                           style={{ objectFit: "contain" }}
                         />
                       </Col>
